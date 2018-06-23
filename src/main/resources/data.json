@@ -1,0 +1,14 @@
+[
+  {
+    "packageType" : "Backpack Cal",
+    "title" : "Big man ",
+    "blurb" : "blurb field",
+    "description" : "description field",
+    "bullets" : "bullets fields",
+    "difficulty" : "Medium",
+    "length" : "3 days",
+    "price" : "1000",
+    "region" : "Central cost",
+    "keywords" : "hello world"
+  }
+]

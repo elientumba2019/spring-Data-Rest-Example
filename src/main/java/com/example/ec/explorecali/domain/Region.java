@@ -1,0 +1,26 @@
+package com.example.ec.explorecali.domain;
+
+public enum  Region {
+
+    Central_Coast("Central Cost") ,
+    Southern_California("Southern California"),
+    Northern_California("Northen Califaornia"),
+    Varies("Varies");
+
+    private String label;
+
+
+    private Region(String label){
+        this.label = label;
+    }
+
+
+    public static Region findLabel(String byLabel){
+        for(Region r : Region.values()){
+            if(r.label.equalsIgnoreCase(byLabel)){
+                return r;
+            }
+        }
+        return null;
+    }
+}
